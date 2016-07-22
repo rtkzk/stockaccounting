@@ -1,0 +1,24 @@
+package com.stockaccounting.tests;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import com.stockaccounting.masterscripts.login;
+
+public class SAexe
+{
+@Test
+public void exe()
+{
+	WebDriver driver=new FirefoxDriver();
+	driver.get("http://webapp.qedgetech.com/");
+	driver.manage().window().maximize();
+	login lgn=PageFactory.initElements(driver,login.class);
+	lgn.adminlgn("admin","master");
+}
+	
+	
+	
+}

@@ -1,0 +1,6 @@
+cname####
+mobile
+led tv
+sname####address####city####country####cperson####phonenumber####Email####mphnumber####Note####
+rahul####Hyderabad####Hyderabad####India####Sumeet####9898989898####rahul@gmail.com####7878787878####importantcustomer####
+sahil####Bandra####Mumbai####India####Raman####8989898989####sumeet@gamil.com####8787878787####vender####
